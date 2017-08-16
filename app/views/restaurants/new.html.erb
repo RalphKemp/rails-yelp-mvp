@@ -1,0 +1,15 @@
+<h1>New Restaurant</h1>
+
+<%= form_for(@restaurant) do |r| %>
+    <%= r.text_field :name %>
+    <%= r.text_field :address %>
+    <%= r.text_field :phone_number %>
+    <%= r.text_field :category %>
+    <%= r.submit %>
+<% end %>
+
+
+<%= link_to 'Back', restaurants_path %>
+
+
+

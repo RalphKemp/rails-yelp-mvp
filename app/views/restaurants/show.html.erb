@@ -1,0 +1,6 @@
+<%= @restaurant.name %>
+<%= @restaurant.address %>
+<%= @restaurant.phone_number %>
+<%= @restaurant.category %>
+
+<div class="delete-btn"> <%= link_to 'Delete resturant', restaurant_path(@restaurant),  method: :delete %> </div>
